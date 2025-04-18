@@ -34,6 +34,7 @@
 - 채팅 기능 구현
   - WebSocket과 Redis pub/sub를 이용하여 메시지 브로커와 통신을 구현하였고 Redis를 통해 캐싱 저장 및 조회하며 MySQL에 메시지 저장
 - 팔로우 기능 구현
+- Swagger, Opneapi-generator로 문서화하여 프론트 개발자에게 전달
 
 ## 추후계획
 - 채팅 프론트엔드 수정 예정머스 데브코스 4차 프로젝트
@@ -66,11 +67,6 @@
 | **배포 환경** | Docker + AWS |
 | **CI/CD** | GitHub Actions |
 | **테스트** | JUnit5, H2, Jmeter |
-
-## 역할
-- 채팅 기능 구현
-  - WebSocket과 Redis pub/sub를 이용하여 메시지 브로커와 통신을 구현하였고 Redis를 통해 캐싱 저장 및 조회하며 MySQL에 메시지 저장
-- 팔로우 기능 구현
 
 ## 추후계획
 - 채팅 프론트엔드 수정 예정
